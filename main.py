@@ -1,4 +1,5 @@
 import streamlit as st
+from streamlit_option_menu import option_menu
 import pandas as pd
 
 st.title('ML Project Group 99 - StockWise')
@@ -15,3 +16,7 @@ st.write("First, we will develop a baseline model by running a deep neural netwo
 st.write("We will then try to extract features using PCA and then train an LSTM and then an ARIMA on these extracted features.")
 st.subheader("Results & Discussion")
 st.write("To quantitatively assess the performance of our machine learning models, we have selected a set of metrics that collectively provide a robust framework for assessing the effectiveness and reliability of our research outcomes. We will use mean absolute error (MAE) to provide a sense of the magnitude of errors in predictions. Mean squared error (MSE) will be employed since it penalizes larger errors more heavily than MAE. We will also use r-squared (R2) since it indicates goodness of fit.")
+
+st.subheader("Gantt Chart")
+url = "https://gtvault-my.sharepoint.com/:x:/g/personal/ecai32_gatech_edu/EcyEwpm5R8lNgnS7mIxyW1YBPNsGfQDo-N4J-dkUq9hfmg?e=4%3Auiq637&fromShare=true&at=9&wdLOR=cF89E960B-265C-544C-BE4F-AAA752B8557D"
+st.write("Here is our [Gantt Chart](%s)" % url)
