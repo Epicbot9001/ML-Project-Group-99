@@ -1,5 +1,5 @@
 # CS 4641 Project Proposal - Group 99
-## Introduction/Background. 
+## Introduction/Background
 Our Drive:
 
 https://drive.google.com/drive/folders/13gELaEdzgMg5ZNfNG5EkAXFQHgyMxWgJ
