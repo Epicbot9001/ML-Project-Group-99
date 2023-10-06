@@ -1,4 +1,4 @@
-# CS 4641 Project Proposal - Group 99. 
+# CS 4641 Project Proposal - Group 99
 ## Introduction/Background. 
 Our Drive:
 
