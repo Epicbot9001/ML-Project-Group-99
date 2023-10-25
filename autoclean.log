@@ -1,0 +1,21 @@
+25-10-2023 18:40:10.69 - INFO - Started validation of input parameters...
+25-10-2023 18:40:10.70 - INFO - Completed validation of input parameters
+25-10-2023 18:40:11.62 - INFO - Started handling of duplicates... Method: "AUTO"
+25-10-2023 18:40:24.22 - DEBUG - 0 missing values found
+25-10-2023 18:40:24.22 - INFO - Completed handling of duplicates in 12.598503 seconds
+25-10-2023 18:40:24.27 - INFO - Started handling of missing values...
+25-10-2023 18:40:24.52 - INFO - Found a total of 5752930 missing value(s)
+25-10-2023 18:40:25.59 - INFO - Started handling of NUMERICAL missing values... Method: "AUTO"
+25-10-2023 18:40:51.30 - DEBUG - LINREG imputation of 37162 value(s) succeeded for feature "far_price"
+25-10-2023 18:41:25.83 - WARNING - KNN imputation failed for feature "imbalance_size"
+25-10-2023 18:41:26.64 - WARNING - KNN imputation failed for feature "reference_price"
+25-10-2023 18:41:27.30 - WARNING - KNN imputation failed for feature "matched_size"
+25-10-2023 18:44:56.30 - WARNING - KNN imputation failed for feature "far_price"
+25-10-2023 18:44:56.41 - WARNING - KNN imputation failed for feature "near_price"
+25-10-2023 18:44:56.56 - WARNING - KNN imputation failed for feature "bid_price"
+25-10-2023 18:44:57.29 - WARNING - KNN imputation failed for feature "ask_price"
+25-10-2023 18:44:57.43 - WARNING - KNN imputation failed for feature "wap"
+25-10-2023 18:45:17.48 - DEBUG - KNN imputation of 88 value(s) succeeded for feature "target"
+25-10-2023 18:45:17.49 - INFO - Started handling of CATEGORICAL missing values... Method: "AUTO"
+25-10-2023 18:45:29.56 - INFO - Completed handling of missing values in 305.170607 seconds
+25-10-2023 18:45:29.66 - INFO - Started handling of outliers... Method: "WINZ"
