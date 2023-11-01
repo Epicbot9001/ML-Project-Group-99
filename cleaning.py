@@ -1,5 +1,4 @@
 import pandas as pd
-from AutoClean import AutoClean
 from scipy import stats
 import numpy as np
 
