@@ -1,6 +1,7 @@
 import pandas as pd
-from AutoClean import AutoClean
+#from AutoClean import AutoClean
 from scipy import stats
+from sklearn.preprocessing import MinMaxScaler
 import numpy as np
 
 def clean():
@@ -34,5 +35,10 @@ def clean():
     #pipeline = AutoClean(df, mode = 'manual', outliers = 'auto', missing_num='auto')
     # print(df.isna().any().any())
     #df.to_csv('train_clean.csv', index=False)
+    df = df.drop('row_id', axis=1)
+    df = df.drop('time_id', axis=1)
+    scaler = MinMaxScaler()
+    columns_to_normalize = [col for col in df.columns if col != 'target' and col != 'imbalance_buy_sell_flag']
+    df[columns_to_normalize] = scaler.fit_transform(df[columns_to_normalize])
     print("done")
     return df
