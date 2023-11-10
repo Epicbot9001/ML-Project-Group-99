@@ -8,5 +8,4 @@ dependencies:
   - pip
   - wheel
   - conda-content-trust
-  - python.app
 #prefix: /Users/liu21d/miniconda3
