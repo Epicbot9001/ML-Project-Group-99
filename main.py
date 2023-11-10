@@ -50,4 +50,27 @@ st.image("contribution.png")
 contribution_url = "https://docs.google.com/spreadsheets/d/1Rgvp4U7Ef4F_N1EJv0jqYG-QiYhiDy6liCCfzj7GoTY/edit#gid=0"
 st.write("Click [here](%s) to access our Contribution Chart" % contribution_url)
 
+st.subheader("References")
+st.write("""
+LSTM/RNN/CNN Sliding Window
+- https://ieeexplore.ieee.org/abstract/document/8126078/ 
+[1] S. Selvin, R. Vinayakumar, E. A. Gopalakrishnan, V. K. Menon, and K. P. Soman, “Stock price prediction using LSTM, RNN and CNN-sliding window model,” 2017 International Conference on Advances in Computing, Communications and Informatics (ICACCI), Sep. 2017, doi: https://doi.org/10.1109/icacci.2017.8126078.  
+
+ARIMA
+- https://ieeexplore.ieee.org/abstract/document/7046047/ 
+[2] A. A. Ariyo, A. O. Adewumi, and C. K. Ayo, “Stock Price Prediction Using the ARIMA Model,” 2014 UKSim-AMSS 16th International Conference on Computer Modelling and Simulation, Mar. 2014, doi: https://doi.org/10.1109/uksim.2014.67.
+
+Deep Learning
+- https://durham-repository.worktribe.com/output/1389193 
+[3] E. Chong, C. Han, and F. C. Park, “Deep learning networks for stock market analysis and prediction: Methodology, data representations, and case studies,” Expert Systems with Applications, vol. 83, pp. 187–205, Oct. 2017, doi: https://doi.org/10.1016/j.eswa.2017.04.030.
+
+LSTM + feature selection
+- https://journalofbigdata.springeropen.com/articles/10.1186/s40537-020-00333-6 
+[4] J. Shen and M. O. Shafiq, “Short-term stock market price trend prediction using a comprehensive deep learning system,” Journal of Big Data, vol. 7, no. 1, Aug. 2020, doi: https://doi.org/10.1186/s40537-020-00333-6.
+
+SVM + hybrid feature selection
+- https://www.sciencedirect.com/science/article/pii/S0957417409001560?via%3Dihub 
+[5] M.-C. Lee, “Using support vector machine with a hybrid feature selection method to the stock trend prediction,” Expert Systems with Applications, vol. 36, no. 8, pp. 10896–10904, Oct. 2009, doi: https://doi.org/10.1016/j.eswa.2009.
+02.038.
+""")
 
