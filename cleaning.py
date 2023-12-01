@@ -7,8 +7,8 @@ import numpy as np
 def clean():
     df = pd.read_csv("optiver-trading-at-the-close/train.csv")
     df = df.drop(columns = ['far_price', 'near_price'])
-    print(df.head())
-    print(df.isna().any().any())
+    # print(df.head())
+    # print(df.isna().any().any())
     rows_nan = df[df.isna().any(axis=1)]
     # print(rows_nan.index)
     # print(df.columns)
@@ -17,7 +17,7 @@ def clean():
     # print(df['date_id'].value_counts())
     # print(len(df))
     df = df.dropna()
-    print(len(df))
+    # print(len(df))
     #df = df[(np.abs(stats.zscore(df)) < 3).all(axis=1)]
     for col in df.columns:
         if "id" not in col:
@@ -40,5 +40,5 @@ def clean():
     scaler = MinMaxScaler()
     columns_to_normalize = [col for col in df.columns if col != 'target' and col != 'imbalance_buy_sell_flag']
     df[columns_to_normalize] = scaler.fit_transform(df[columns_to_normalize])
-    print("done")
+    # print("done")
     return df
