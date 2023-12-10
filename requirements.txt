@@ -11,3 +11,4 @@ six @ file:///tmp/build/80754af9/six_1644875935023/work
 tzdata @ file:///croot/python-tzdata_1690578112552/work
 python==3.8
 streamlit==1.28.0
+inotify
